@@ -1,0 +1,41 @@
+{
+  "name": "refreshable-scroll-view",
+  "version": "1.0.0",
+  "description": "Vue ScrollView with pull to refresh",
+  "author": "moka",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/moka-a/vue-refreshable-scroll-view.git"
+  },
+  "scripts": {
+    "dev:example": "vite serve example --host 0.0.0.0",
+    "build": "npm run build:production && npm run build:example",
+    "build:production": "vite build && tsc -p tsconfig.build.json",
+    "build:example": "vite build example && cp example/CNAME example-dist/",
+    "deploy:example": "npm run build:example && gh-pages -d example-dist"
+  },
+  "main": "lib/refreshable-scroll-view.umd.js",
+  "module": "lib/refreshable-scroll-view.es.js",
+  "types": "lib/index.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "12.1.4",
+    "@commitlint/config-conventional": "12.1.4",
+    "@types/node": "14.14.45",
+    "@vitejs/plugin-vue": "1.2.2",
+    "@vue/compiler-sfc": "3.0.11",
+    "eslint": "^7.29.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-stable": "^0.9.0",
+    "eslint-plugin-vue": "^7.12.1",
+    "husky": "5.2.0",
+    "typescript": "4.2.4",
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2",
+    "vite": "2.3.2",
+    "vue": "3.0.11",
+    "gh-pages": "3.1.0"
+  }
+}
