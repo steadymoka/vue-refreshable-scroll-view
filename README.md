@@ -10,7 +10,7 @@
 
 iOS Style Vue component (for Vue 3.0) that you can pull to refresh.
 
-[See Example](https://) ([sources](./example))
+[See Example](https://moka-a.github.io/vue-refreshable-scroll-view/) ([sources](./example))
 
 ## Installation
 
