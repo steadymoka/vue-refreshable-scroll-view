@@ -26,7 +26,7 @@ import RefreshableScrollView from 'vue-refreshable-scroll-view'
 
 const app = createApp(/* */)
 
-app.use(RefreshableScrollView) // export default is plugin
+app.use(RefreshableScrollView)
 ```
 
 **Local Registration**
@@ -75,12 +75,12 @@ export default {
 
 ### Props
 
-| Name              | Type       | Default | Example          |
-| ----------------- | :--------- | ------- | ---------------- |
-| distanceToRefresh | `number`   | `42`    |                  |
-| damping           | `number`   | `224`   |                  |
-| scale             | `number`   | `0.6`   | between 0 ~ 1    |
-| onRefresh         | `function` | `null`  | `async function` |
+| Name              | Type       | Default | Expain                    |
+| ----------------- | :--------- | ------- | ------------------------- |
+| distanceToRefresh | `number`   | `42`    |                           |
+| damping           | `number`   | `224`   |                           |
+| scale             | `number`   | `0.6`   | 0 ~ 1                     |
+| onRefresh         | `function` | `null`  | `async () => { sleep() }` |
 
 ### Events
 
