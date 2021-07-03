@@ -15,7 +15,7 @@ iOS Style Vue component (for Vue 3.0) that you can pull to refresh.
 ## Installation
 
 ```bash
-npm i vue-refreshable-scroll-view
+npm i vue-refreshable-scroll-view # not available now
 ```
 
 ## Usage
