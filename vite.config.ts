@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: path.resolve(__dirname, 'lib'),
     lib: {
       entry: path.resolve(__dirname, 'entry.ts'),
-      name: 'VuePullToRefresh',
+      name: 'VueRefreshableScrollView',
     },
     rollupOptions: {
       external: ['vue'],
