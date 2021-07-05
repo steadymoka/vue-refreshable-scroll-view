@@ -12,13 +12,13 @@ iOS Style Vue component (for Vue 3.0) that you can pull to refresh.
 
 [See Example](https://moka-a.github.io/vue-refreshable-scroll-view/) ([sources](./example))
 
-## Installation
+## 🛠 Installation
 
 ```bash
 npm i vue-refreshable-scroll-view # not available now
 ```
 
-## Usage
+## 🕹 Usage
 
 ```js
 import { createApp } from 'vue'
@@ -71,11 +71,11 @@ export default {
 </script>
 ```
 
-## Options
+## ⚙️ Options
 
 ### Props
 
-| Name              | Type       | Default | Expain                    |
+| Name              | Type       | Default | Description               |
 | ----------------- | :--------- | ------- | ------------------------- |
 | distanceToRefresh | `number`   | `42`    |                           |
 | damping           | `number`   | `224`   |                           |
